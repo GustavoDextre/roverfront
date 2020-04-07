@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/roverfront/static/css/main.24193294.chunk.css",
-    "main.js": "/roverfront/static/js/main.ab519b8b.chunk.js",
-    "main.js.map": "/roverfront/static/js/main.ab519b8b.chunk.js.map",
+    "main.css": "/roverfront/static/css/main.ac31e7f0.chunk.css",
+    "main.js": "/roverfront/static/js/main.fc987784.chunk.js",
+    "main.js.map": "/roverfront/static/js/main.fc987784.chunk.js.map",
     "runtime-main.js": "/roverfront/static/js/runtime-main.e33a5b33.js",
     "runtime-main.js.map": "/roverfront/static/js/runtime-main.e33a5b33.js.map",
     "static/css/2.a0c678d2.chunk.css": "/roverfront/static/css/2.a0c678d2.chunk.css",
-    "static/js/2.226f686a.chunk.js": "/roverfront/static/js/2.226f686a.chunk.js",
-    "static/js/2.226f686a.chunk.js.map": "/roverfront/static/js/2.226f686a.chunk.js.map",
+    "static/js/2.ff9a3466.chunk.js": "/roverfront/static/js/2.ff9a3466.chunk.js",
+    "static/js/2.ff9a3466.chunk.js.map": "/roverfront/static/js/2.ff9a3466.chunk.js.map",
     "index.html": "/roverfront/index.html",
-    "precache-manifest.7cfaf5d4707e52cca06f64501341fde5.js": "/roverfront/precache-manifest.7cfaf5d4707e52cca06f64501341fde5.js",
+    "precache-manifest.6661a25282e23e55253783c7ba8f1064.js": "/roverfront/precache-manifest.6661a25282e23e55253783c7ba8f1064.js",
     "service-worker.js": "/roverfront/service-worker.js",
     "static/css/2.a0c678d2.chunk.css.map": "/roverfront/static/css/2.a0c678d2.chunk.css.map",
-    "static/css/main.24193294.chunk.css.map": "/roverfront/static/css/main.24193294.chunk.css.map",
-    "static/js/2.226f686a.chunk.js.LICENSE.txt": "/roverfront/static/js/2.226f686a.chunk.js.LICENSE.txt",
+    "static/css/main.ac31e7f0.chunk.css.map": "/roverfront/static/css/main.ac31e7f0.chunk.css.map",
+    "static/js/2.ff9a3466.chunk.js.LICENSE.txt": "/roverfront/static/js/2.ff9a3466.chunk.js.LICENSE.txt",
     "static/media/PUMII.png": "/roverfront/static/media/PUMII.6e0b5603.png",
     "static/media/UNI.png": "/roverfront/static/media/UNI.f7e8d222.png",
     "static/media/login.css": "/roverfront/static/media/astronaut.6be82bd7.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.e33a5b33.js",
     "static/css/2.a0c678d2.chunk.css",
-    "static/js/2.226f686a.chunk.js",
-    "static/css/main.24193294.chunk.css",
-    "static/js/main.ab519b8b.chunk.js"
+    "static/js/2.ff9a3466.chunk.js",
+    "static/css/main.ac31e7f0.chunk.css",
+    "static/js/main.fc987784.chunk.js"
   ]
 }
