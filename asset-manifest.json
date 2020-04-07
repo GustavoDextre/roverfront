@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/roverfront/static/css/main.24193294.chunk.css",
+    "main.js": "/roverfront/static/js/main.ef439fbb.chunk.js",
+    "main.js.map": "/roverfront/static/js/main.ef439fbb.chunk.js.map",
+    "runtime-main.js": "/roverfront/static/js/runtime-main.e33a5b33.js",
+    "runtime-main.js.map": "/roverfront/static/js/runtime-main.e33a5b33.js.map",
+    "static/css/2.a0c678d2.chunk.css": "/roverfront/static/css/2.a0c678d2.chunk.css",
+    "static/js/2.226f686a.chunk.js": "/roverfront/static/js/2.226f686a.chunk.js",
+    "static/js/2.226f686a.chunk.js.map": "/roverfront/static/js/2.226f686a.chunk.js.map",
+    "index.html": "/roverfront/index.html",
+    "precache-manifest.f1f0f4ffc5140570abccced3e7ba4f50.js": "/roverfront/precache-manifest.f1f0f4ffc5140570abccced3e7ba4f50.js",
+    "service-worker.js": "/roverfront/service-worker.js",
+    "static/css/2.a0c678d2.chunk.css.map": "/roverfront/static/css/2.a0c678d2.chunk.css.map",
+    "static/css/main.24193294.chunk.css.map": "/roverfront/static/css/main.24193294.chunk.css.map",
+    "static/js/2.226f686a.chunk.js.LICENSE.txt": "/roverfront/static/js/2.226f686a.chunk.js.LICENSE.txt",
+    "static/media/PUMII.png": "/roverfront/static/media/PUMII.6e0b5603.png",
+    "static/media/UNI.png": "/roverfront/static/media/UNI.f7e8d222.png",
+    "static/media/login.css": "/roverfront/static/media/astronaut.6be82bd7.jpg",
+    "static/media/font-awesome.min.css": "/roverfront/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/foto1.jpg": "/roverfront/static/media/foto1.ab3f68a7.jpg",
+    "static/media/foto10.jpg": "/roverfront/static/media/foto10.241c10ac.jpg",
+    "static/media/foto2.jpg": "/roverfront/static/media/foto2.4deb012e.jpg",
+    "static/media/foto3.jpg": "/roverfront/static/media/foto3.a843f9b7.jpg",
+    "static/media/foto4.jpg": "/roverfront/static/media/foto4.4bd9993f.jpg",
+    "static/media/foto5.jpg": "/roverfront/static/media/foto5.7f5a81b8.jpg",
+    "static/media/foto6.jpg": "/roverfront/static/media/foto6.19c97a39.jpg",
+    "static/media/foto7.jpg": "/roverfront/static/media/foto7.af17aaa2.jpg",
+    "static/media/foto8.jpg": "/roverfront/static/media/foto8.d205ff85.jpg",
+    "static/media/foto9.jpg": "/roverfront/static/media/foto9.6009dca3.jpg",
+    "static/media/pagina_principal.css": "/roverfront/static/media/foto_principal.14144c49.jpg",
+    "static/media/teamPumii.jpg": "/roverfront/static/media/teamPumii.ab3f68a7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e33a5b33.js",
+    "static/css/2.a0c678d2.chunk.css",
+    "static/js/2.226f686a.chunk.js",
+    "static/css/main.24193294.chunk.css",
+    "static/js/main.ef439fbb.chunk.js"
+  ]
+}
