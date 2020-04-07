@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ImagesSlider from './imagesSlider';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css'
 import '../css/slider.css';
 
 //fotos
@@ -46,10 +46,8 @@ function Slider() {
                     </div>
                 )
             })}
-            <button id="goLeft" onClick={goLeft}>
-                <i className="fas fa-chevron-left"></i>
-            </button>
-            <button id="goRight" onClick={goRight}><i className="fas fa-chevron-right"></i></button>
+            <button id="goLeft" onClick={goLeft}><i className="fa fa-chevron-left"></i></button>
+            <button id="goRight" onClick={goRight}><i className="fa fa-chevron-right"></i></button>
         </div>
     )
 }

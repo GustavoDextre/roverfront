@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/pagina_principal.css';
 
 export default class CabezaDos extends Component {
