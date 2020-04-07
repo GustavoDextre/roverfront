@@ -20,6 +20,9 @@ export default class Navegacion extends Component {
                             <li className="nav-item">
                                 <Link to="/contacto" className="nav-link">Contáctanos</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to="/streaming" className="nav-link">Streaming</Link>
+                            </li>
                         </ul>
                     </div>
             </nav>

@@ -3,15 +3,20 @@ import { Link } from 'react-router-dom';
 import '../css/login.css';
 
 export default class Login extends Component {
+
+  onSubmit = e => {
+    e.preventDefault();
+  }
+
   render() {
     return <div className="fondo py-5">
       <section className="container-fluid bgfuture">
         <section className="row justify-content-center">
           <section className="col-10 col-sm-8 col-md-6">
-            <form className="form-container col-11 col-md-12 mb-5" action="streaming" method="POST">
+            <form className="form-container col-11 col-md-12 mb-5" onSubmit={this.onSubmit}>
               <div className="text-center font-weight-bold textfone"><h3>Ingresar al sistema</h3></div>
               <div className="form-group">
-                <label htmlFor="exampleInputCodigo1">Código de Usuario</label>
+                <label htmlFor="exampleInputCodigo1">Nombre de usuario</label>
                 <input type="text" name="username" className="form-control" id="usuario" placeholder="usuario" />
               </div>
                 <div className="form-group">

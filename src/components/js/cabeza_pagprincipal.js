@@ -7,7 +7,7 @@ export default class CabezaPrincipal extends Component {
         return (
         <div className="fotoCabeza">
             <div className="bg-text">
-                PUMII UNI
+                PUMII PERÚ
             </div>
         </div>
     )

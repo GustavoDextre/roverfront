@@ -43,10 +43,13 @@ export default class ContenidoPrincipal extends Component {
             <p>Entra a cualquiera de nuestras redes sociales haciendo click en una de ellas.</p>
             <ul className="nav nav-pills flex-column">
               <li className="nav-item">
-                <a className="nav-link text-white" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU"  rel="noopener"><i className="fa fa-instagram" aria-hidden="true"></i> @pumiiperu</a>
+                <a className="nav-link text-white" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU"  rel="noopener"><i className="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="https://www.facebook.com/PUMII-PERU-101383817924692/?ref=page_internal"  rel="noopener"><i className="fa fa-facebook" aria-hidden="true"></i> facebook</a>
+                <a className="nav-link text-white" href="https://www.facebook.com/PUMII-PERU-101383817924692/?ref=page_internal"><i className="fa fa-facebook" aria-hidden="true"></i> facebook</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-white" href="https://pe.linkedin.com/in/pumii-peru-6615131a4"><i className="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-white" href="https://www.youtube.com/channel/UCUSZaNY3yFJiNMLPIY0yGTQ?view_as=subscriber" ><i className="fa fa-youtube" aria-hidden="true" rel="noopener"></i> Youtube</a>

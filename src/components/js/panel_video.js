@@ -5,6 +5,23 @@ import PUMII from '../../images/PUMII.png';
 import UNI from '../../images/UNI.png';
 
 export default class PanelVideo extends Component {
+
+    state = {
+        date: new Date()
+    };
+
+    callMe(){
+        setInterval(() => {
+            this.setState({ date: new Date()});
+        }, 1000);
+    }
+
+    months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+    days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+
+    hora = this.state.date.getHours() % 12? this.state.date.getHours() % 12:"12";
+    notation = this.state.date.getHours() >= 12? "PM":"AM";
+
     render() {
         return (
             <div className="fondo">
@@ -21,20 +38,30 @@ export default class PanelVideo extends Component {
                     <h6 className="text-white py-1 bgfuture bg-dark">
                     Número de personas conectadas :<div id="conexiones"></div>
                     </h6>
-                    <iframe id="cuadro" src="stream.html" frameBorder="0" title="Transmition..."></iframe>
+                    <iframe id="cuadro" src="example.html" frameBorder="0" title="Transmition..."></iframe>
+
                     <h6 className="text-white py-2 bgfuture bg-dark">
-                    Tiempo de streaming :
-                    <span id="minutos">0</span>:<span id="segundos">0</span>
-                    </h6><br/>
-                    <h6 className="text-white py-2 bg-dark">
-                    Fecha y hora :
-                    <div id="clockdate">
-                        <div className="clockdate-wrapper">
-                        <div id="clock"></div>
-                        <div id="date"></div>
-                        </div>
-                    </div>
+                        Tiempo de streaming : 
                     </h6>
+                    
+                    <br/>
+
+                    <h6 className="text-white py-2 bg-dark">
+                     Fecha: { this.days[this.state.date.getDay()] + ', ' 
+                            + ('0' + this.state.date.getDate()).slice(-2) + ' de ' 
+                            + this.months[this.state.date.getMonth()] + ' del ' 
+                            + this.state.date.getFullYear()} 
+
+                        <br/>
+
+                     Hora: {('0' +this.hora).slice(-2)+':'
+                            +('0' + this.state.date.getMinutes()).slice(-2)+':'
+                            +('0' +this.state.date.getSeconds()).slice(-2) + ' '
+                            +this.notation}
+                        
+                        {this.callMe()}
+                    </h6>
+
                     </div>
                     
                 </section>

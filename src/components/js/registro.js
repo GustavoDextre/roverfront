@@ -13,7 +13,7 @@ export default class Registro extends Component {
           <section className="container-fluid bgfuture">
             <section className="row justify-content-center">
               <section className="col-10 col-sm-10 col-md-8">
-                <form className="form-container col-11 col-md-12 mb-5" id="form-registro" onSubmit={this.onSubmit}>
+                <form className="form-container col-md-12 mb-5" id="form-registro" onSubmit={this.onSubmit}>
                   <div className="text-center font-weight-bold textfone mb-4">
                     <h3>Bienvenido al registro del sistema</h3>
                   </div>
@@ -27,10 +27,18 @@ export default class Registro extends Component {
                       <input type="text" className="form-control" id="nombre" placeholder="Escriba Nombres" />
                     </div>
                   </div>
-                  <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" className="form-control" id="email" placeholder="Email" />
+
+                  <div className="form-row">
+                    <div className="form-group col-md-6">
+                      <label htmlFor="email">Email</label>
+                      <input type="email" className="form-control" id="email" placeholder="Email" />
+                    </div>
+                    <div className="form-group col-md-6">
+                      <label htmlFor="exampleInputCodigo1">Nombre de usuario:</label>
+                      <input type="text" name="username" className="form-control" id="usuario" placeholder="usuario" />
+                    </div>
                   </div>
+
                   <div className="form-row">
                     <div className="form-group col-md-6">
                       <label htmlFor="inputPassword4">Contraseña</label>
