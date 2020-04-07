@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/roverfront/static/css/main.24193294.chunk.css",
-    "main.js": "/roverfront/static/js/main.ef439fbb.chunk.js",
-    "main.js.map": "/roverfront/static/js/main.ef439fbb.chunk.js.map",
+    "main.js": "/roverfront/static/js/main.ab519b8b.chunk.js",
+    "main.js.map": "/roverfront/static/js/main.ab519b8b.chunk.js.map",
     "runtime-main.js": "/roverfront/static/js/runtime-main.e33a5b33.js",
     "runtime-main.js.map": "/roverfront/static/js/runtime-main.e33a5b33.js.map",
     "static/css/2.a0c678d2.chunk.css": "/roverfront/static/css/2.a0c678d2.chunk.css",
     "static/js/2.226f686a.chunk.js": "/roverfront/static/js/2.226f686a.chunk.js",
     "static/js/2.226f686a.chunk.js.map": "/roverfront/static/js/2.226f686a.chunk.js.map",
     "index.html": "/roverfront/index.html",
-    "precache-manifest.f1f0f4ffc5140570abccced3e7ba4f50.js": "/roverfront/precache-manifest.f1f0f4ffc5140570abccced3e7ba4f50.js",
+    "precache-manifest.7cfaf5d4707e52cca06f64501341fde5.js": "/roverfront/precache-manifest.7cfaf5d4707e52cca06f64501341fde5.js",
     "service-worker.js": "/roverfront/service-worker.js",
     "static/css/2.a0c678d2.chunk.css.map": "/roverfront/static/css/2.a0c678d2.chunk.css.map",
     "static/css/main.24193294.chunk.css.map": "/roverfront/static/css/main.24193294.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.a0c678d2.chunk.css",
     "static/js/2.226f686a.chunk.js",
     "static/css/main.24193294.chunk.css",
-    "static/js/main.ef439fbb.chunk.js"
+    "static/js/main.ab519b8b.chunk.js"
   ]
 }
