@@ -1,26 +1,54 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import CabezaPrincipal from './components/js/cabeza_pagprincipal';
+import Navegacion from './components/js/navegacion';
+import ContenidoPrincipal from './components/js/contenido_pagprincipal';
+import CabezaDos from './components/js/cabeza2';
+import Footer from './components/js/footer';
+import Login from './components/js/login';
+import Contacto from './components/js/contacto';
+import Registro from './components/js/registro';
+import PanelVideo from './components/js/panel_video';
+
+function App () {
+    return(
+      <Router>
+      <div className="fondoprincipal">
+        <Route path="/roverfront" exact>
+          <CabezaPrincipal/>
+          <Navegacion/>
+          <ContenidoPrincipal/>
+          <Footer/>
+        </Route>
+        <Route path="/login">
+          <CabezaDos/>
+          <Navegacion/>
+          <Login/>
+          <Footer/>
+        </Route>
+        <Route path="/registrar">
+          <CabezaDos/>
+          <Navegacion/>
+          <Registro/>
+          <Footer/>
+        </Route>
+        <Route path="/contacto">
+          <CabezaDos/>
+          <Navegacion/>
+          <Contacto/>
+          <Footer/>
+        </Route>
+        <Route path="/streaming">
+          <CabezaDos/>
+          <Navegacion/>
+          <PanelVideo/>
+          <Footer/>
+        </Route>
+      </div>
+    </Router>);
 }
 
 export default App;

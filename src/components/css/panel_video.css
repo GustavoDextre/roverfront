@@ -1,0 +1,83 @@
+.fotoPanel {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+@media screen and (min-width: 1472px) {
+    #cuadro{
+        height: 500px;
+        width: 700px;
+    }
+    .cuadro2{
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1262px) and (max-width: 1471px) {
+    #cuadro{
+        height: 400px;
+        width: 100%;
+    }
+    .cuadro2{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1261px) {
+    #cuadro{
+        height: 300px;
+        width: 100%;
+    }
+    .cuadro2{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1059px) {
+    #cuadro{
+        height: 300px;
+        width: 100%;
+    }
+    .cuadro2{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 730px) and (max-width: 989px) {
+    #cuadro{
+        height: 500px;
+        width: 100%;
+    }
+    .cuadro2{
+        height: auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 729px) {
+    #cuadro{
+        height: 390px;
+        width: 100%;
+    }
+    .cuadro2{
+        height: auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    #cuadro{
+        height: 250px;
+        width: 100%;
+    }
+    .cuadro2{
+        height: auto;
+        width: 50%;
+    }
+}
