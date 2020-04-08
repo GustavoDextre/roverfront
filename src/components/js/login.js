@@ -13,7 +13,7 @@ export default class Login extends Component {
       <section className="container-fluid bgfuture">
         <section className="row justify-content-center">
           <section className="col-10 col-sm-8 col-md-6">
-            <form className="form-container col-11 col-md-12 mb-5" onSubmit={this.onSubmit}>
+            <form className="form-container col-md-12 mb-5" onSubmit={this.onSubmit}>
               <div className="text-center font-weight-bold textfone"><h3>Ingresar al sistema</h3></div>
               <div className="form-group">
                 <label htmlFor="exampleInputCodigo1">Nombre de usuario</label>

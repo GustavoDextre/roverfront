@@ -17,7 +17,7 @@ import PanelVideo from './components/js/panel_video';
 function App () {
     return(
       <div className="fondoprincipal">
-        <Route path="/roverfront" exact>
+        <Route path="/" exact>
           <CabezaPrincipal/>
           <Navegacion/>
           <ContenidoPrincipal/>
