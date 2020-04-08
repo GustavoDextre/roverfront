@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
@@ -16,7 +16,6 @@ import PanelVideo from './components/js/panel_video';
 
 function App () {
     return(
-      <Router>
       <div className="fondoprincipal">
         <Route path="/roverfront" exact>
           <CabezaPrincipal/>
@@ -48,8 +47,7 @@ function App () {
           <PanelVideo/>
           <Footer/>
         </Route>
-      </div>
-    </Router>);
+      </div>);
 }
 
 export default App;
