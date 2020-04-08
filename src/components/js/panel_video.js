@@ -38,7 +38,8 @@ export default class PanelVideo extends Component {
                     <h6 className="text-white py-1 bgfuture bg-dark">
                     Número de personas conectadas :<div id="conexiones"></div>
                     </h6>
-                    <iframe id="cuadro" src="example.html" frameBorder="0" title="Transmition..."></iframe>
+
+                    <iframe id="cuadro" src="https://flame-gregariousbraarious-bramble.glitch.me/" frameBorder="0" title="Transmition..." allowFullScreen="yes" scrolling="no" allowvr="yes"></iframe>
 
                     <h6 className="text-white py-2 bgfuture bg-dark">
                         Tiempo de streaming : 
