@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/roverfront/precache-manifest.fb48c4551f6ff63b3134a387a484c2d4.js"
+  "/roverfront/precache-manifest.c9cc18819c13a820987449b487d18681.js"
 );
 
 self.addEventListener('message', (event) => {

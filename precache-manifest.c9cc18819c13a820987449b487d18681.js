@@ -1,43 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b87d2f07f975a023c61c0f9b488b05e7",
+    "revision": "e237adf1b493e0227ad608d485b0d9e5",
     "url": "/roverfront/index.html"
   },
   {
-    "revision": "2561c056d994ec0d9dca",
-    "url": "/roverfront/static/css/2.a0c678d2.chunk.css"
+    "revision": "2b849bcf3cb666880874",
+    "url": "/roverfront/static/css/2.e6e4ff8c.chunk.css"
   },
   {
-    "revision": "e3a9ba1aab89ad34585e",
-    "url": "/roverfront/static/css/main.8c7564cf.chunk.css"
+    "revision": "c5454be65dca495b9ed7",
+    "url": "/roverfront/static/css/main.fd830e3d.chunk.css"
   },
   {
-    "revision": "2561c056d994ec0d9dca",
-    "url": "/roverfront/static/js/2.bb0e3d57.chunk.js"
+    "revision": "2b849bcf3cb666880874",
+    "url": "/roverfront/static/js/2.35cc2ab3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/roverfront/static/js/2.bb0e3d57.chunk.js.LICENSE.txt"
+    "url": "/roverfront/static/js/2.35cc2ab3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3a9ba1aab89ad34585e",
-    "url": "/roverfront/static/js/main.dd315b27.chunk.js"
+    "revision": "c5454be65dca495b9ed7",
+    "url": "/roverfront/static/js/main.c54d3c87.chunk.js"
   },
   {
     "revision": "9180d15f4f90baa7244f",
     "url": "/roverfront/static/js/runtime-main.e33a5b33.js"
   },
   {
+    "revision": "81c54f28a58ad1434667793c87bbbada",
+    "url": "/roverfront/static/media/Login.81c54f28.jpg"
+  },
+  {
     "revision": "6e0b5603fb22690acbfe8ac3ae285391",
     "url": "/roverfront/static/media/PUMII.6e0b5603.png"
   },
   {
-    "revision": "f7e8d222b735973900f6e3e13536a19c",
-    "url": "/roverfront/static/media/UNI.f7e8d222.png"
+    "revision": "93218426419f855600d23c79b411e8f0",
+    "url": "/roverfront/static/media/UNI.93218426.png"
   },
   {
-    "revision": "6be82bd73f10d26cd18690b72546e7a9",
-    "url": "/roverfront/static/media/astronaut.6be82bd7.jpg"
+    "revision": "8ddae5741dc1cef719851866c0614ee4",
+    "url": "/roverfront/static/media/contactanos.8ddae574.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -100,11 +104,35 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/roverfront/static/media/foto9.6009dca3.jpg"
   },
   {
-    "revision": "14144c49e8afddd7c233bad734dd7b4c",
-    "url": "/roverfront/static/media/foto_principal.14144c49.jpg"
+    "revision": "08c150348a60411541e99509b8847b3b",
+    "url": "/roverfront/static/media/fotoDescripcion.08c15034.jpg"
   },
   {
-    "revision": "ab3f68a78584885eb82d88dc2e999e4b",
-    "url": "/roverfront/static/media/teamPumii.ab3f68a7.jpg"
+    "revision": "4f8496ca8d1d8f7cac6b52e14758cd51",
+    "url": "/roverfront/static/media/foto_principal.4f8496ca.jpeg"
+  },
+  {
+    "revision": "8805175ce9a90cc96214e414b316e0bc",
+    "url": "/roverfront/static/media/historia.8805175c.jpg"
+  },
+  {
+    "revision": "ca3b706dd29d9cac0ee37d8a9b504852",
+    "url": "/roverfront/static/media/logoasme.ca3b706d.png"
+  },
+  {
+    "revision": "fb2a33bc6fa39e0b675500a6e1005a4a",
+    "url": "/roverfront/static/media/logoerc.fb2a33bc.png"
+  },
+  {
+    "revision": "dea6eb27ff951568e4ab37edad31ff16",
+    "url": "/roverfront/static/media/registrate.dea6eb27.jpg"
+  },
+  {
+    "revision": "3ec2141114d5f9b8c5400c0095c757fe",
+    "url": "/roverfront/static/media/retos.3ec21411.jpg"
+  },
+  {
+    "revision": "32917711c658eb0fdeafdc597735bf3a",
+    "url": "/roverfront/static/media/streaming.32917711.jpg"
   }
 ]);
