@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
@@ -18,8 +17,8 @@ function App () {
     return(
       <div className="fondoprincipal">
         <Route path="/" exact>
-          <CabezaPrincipal/>
           <Navegacion/>
+          <CabezaPrincipal/>
           <ContenidoPrincipal/>
           <Footer/>
         </Route>
@@ -27,25 +26,21 @@ function App () {
           <CabezaDos/>
           <Navegacion/>
           <Login/>
-          <Footer/>
         </Route>
         <Route path="/registrar">
           <CabezaDos/>
           <Navegacion/>
           <Registro/>
-          <Footer/>
         </Route>
         <Route path="/contacto">
           <CabezaDos/>
           <Navegacion/>
           <Contacto/>
-          <Footer/>
         </Route>
         <Route path="/streaming">
           <CabezaDos/>
           <Navegacion/>
           <PanelVideo/>
-          <Footer/>
         </Route>
       </div>);
 }

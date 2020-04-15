@@ -23,8 +23,8 @@ export default class PanelVideo extends Component {
     notation = this.state.date.getHours() >= 12? "PM":"AM";
 
     render() {
-        return (
-            <div className="fondo">
+        return (<div>
+            <div className="fondoSolar">
                 <section className="container-fluid">
                 <section className="row py-5">
                 <section className="col-lg-3 text-center">
@@ -35,19 +35,19 @@ export default class PanelVideo extends Component {
             
                 <section className="col-md-12 col-lg-6 text-center">
                     <div className="my-3 text-center" name="_reloj">
-                    <h6 className="text-white py-1 bgfuture bg-dark">
+                    <h6 className="text-white py-1 bgfuture">
                     Número de personas conectadas :<div id="conexiones"></div>
                     </h6>
 
-                    <iframe id="cuadro" src="https://flame-gregariousbraarious-bramble.glitch.me/" frameBorder="0" title="Transmition..." allowFullScreen="yes" scrolling="no" allowvr="yes"></iframe>
+                    <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" src="https://flame-gregariousbraarious-bramble.glitch.me/" title="Transmition..."></iframe>
 
-                    <h6 className="text-white py-2 bgfuture bg-dark">
+                    <h6 className="text-white py-2 bgfuture">
                         Tiempo de streaming : 
                     </h6>
                     
                     <br/>
 
-                    <h6 className="text-white py-2 bg-dark">
+                    <h6 className="text-white py-2">
                      Fecha: { this.days[this.state.date.getDay()] + ', ' 
                             + ('0' + this.state.date.getDate()).slice(-2) + ' de ' 
                             + this.months[this.state.date.getMonth()] + ' del ' 
@@ -76,7 +76,7 @@ export default class PanelVideo extends Component {
 
             </section>
             </section>
-            </div>
+            </div></div>
         )
     }
 }

@@ -9,7 +9,7 @@ export default class Login extends Component {
   }
 
   render() {
-    return <div className="fondo py-5">
+    return <div className="fondo pt-5">
       <section className="container-fluid bgfuture">
         <section className="row justify-content-center">
           <section className="col-10 col-sm-8 col-md-6">
