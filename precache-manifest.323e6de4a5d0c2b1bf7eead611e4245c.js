@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e69f4047306e0d4c3ccd54811bc9498",
+    "revision": "cf6427d0900eee5ef44a131399ef8dc7",
     "url": "/roverfront/index.html"
   },
   {
-    "revision": "2b849bcf3cb666880874",
+    "revision": "2bb9edb4f8d12c4404e8",
     "url": "/roverfront/static/css/2.e6e4ff8c.chunk.css"
   },
   {
-    "revision": "08a314f39fc586dc1e9d",
-    "url": "/roverfront/static/css/main.bad4bc9f.chunk.css"
+    "revision": "eb79f859efbf89bf9d5a",
+    "url": "/roverfront/static/css/main.7e6df4af.chunk.css"
   },
   {
-    "revision": "2b849bcf3cb666880874",
-    "url": "/roverfront/static/js/2.35cc2ab3.chunk.js"
+    "revision": "2bb9edb4f8d12c4404e8",
+    "url": "/roverfront/static/js/2.1b6ea280.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/roverfront/static/js/2.35cc2ab3.chunk.js.LICENSE.txt"
+    "url": "/roverfront/static/js/2.1b6ea280.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08a314f39fc586dc1e9d",
-    "url": "/roverfront/static/js/main.31454699.chunk.js"
+    "revision": "eb79f859efbf89bf9d5a",
+    "url": "/roverfront/static/js/main.7fdb0c3c.chunk.js"
   },
   {
     "revision": "9180d15f4f90baa7244f",
