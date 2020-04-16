@@ -39,7 +39,7 @@ export default class PanelVideo extends Component {
                     Número de personas conectadas :<div id="conexiones"></div>
                     </h6>
 
-                    <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" src="https://flame-gregariousbraarious-bramble.glitch.me/" title="Transmition..."></iframe>
+                    <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" allow="gyroscope; accelerometer; xr-spatial-tracking;" src="https://aframeio.herokuapp.com/" title="Transmition..."></iframe>
 
                     <h6 className="text-white py-2 bgfuture">
                         Tiempo de streaming : 
