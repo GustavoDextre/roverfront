@@ -62,9 +62,9 @@ export default class ContenidoPrincipal extends Component {
       <div className="container-fluid" style={this.styleOne()}>
         <div className="row">
             <div className="col-md-6 py-5 text-center text-white">
-              <p className="h1 font-weight-bold">PERÚ UN MODELO DE</p>
-              <p className="h3 font-weight-bold">INVESTIGACIÓN E INGENIERÍA</p>
-              <p className="h5 font-weight-bold">ERC POLONIA 2020</p>
+              <p className="h1 font-weight-bold nexa">PERÚ UN MODELO DE</p>
+              <p className="h3 font-weight-bold nexa">INVESTIGACIÓN E INGENIERÍA</p>
+              <p className="h5 font-weight-bold rockwell">ERC POLONIA 2020</p>
             </div><br/>
             <div className="container-fluid col-md-6 py-5 imageERC text-center">
             <img src={logoerc} style={this.stylePhotoERC()} alt="Foto Logo ERC" />
@@ -75,7 +75,7 @@ export default class ContenidoPrincipal extends Component {
       <div className="container-fluid bg-light" style={this.styleOne()}>
         <div className="row justify-content-center">
             <div className="col-md-6 py-5">
-            <p className="h5 text-asme rellenotres">Somos un equipo multidisciplinario<br/> formado en la Facultad de Ingeniería<br/> Mecánica de la Universidad Nacional<br/> de Ingeniería UNI.</p>
+            <p className="h5 text-asme rellenotres rockwell">Somos un equipo multidisciplinario<br/> formado en la Facultad de Ingeniería<br/> Mecánica de la Universidad Nacional<br/> de Ingeniería UNI.</p>
             </div><br/>
             <div className="container col-md-6 py-5 text-center">
             <img src={fotodescripcion} style={this.stylePhotoERC()} alt="Foto entrada" />
@@ -93,9 +93,9 @@ export default class ContenidoPrincipal extends Component {
             <img src={historia} style={this.stylePhotoHistoria()} alt="Foto Logo ERC" />
             </div><br/>
             <div className="col-lg-5 py-5 text-center text-white">
-              <p className="h1 font-weight-bolder">HISTORIA</p>
-              <p className="h5 font-weight-bold">PUMII UNI PERÚ</p>
-              <p>El equipo PUMII UNI se formó en el 2019 en el corazón de la Facultad de Ingeniería Mecánica de la Universidad Nacional de Ingeniería con el apoyo de la Sección Estudiantil ASME UNI la cual es la rama estudiantil de la American Society of Mechanical Engineers con sede en la UNI.
+              <p className="h1 font-weight-bolder nexa">HISTORIA</p>
+              <p className="h5 font-weight-bold nexa">PUMII UNI PERÚ</p>
+              <p className="rockwell">El equipo PUMII UNI se formó en el 2019 en el corazón de la Facultad de Ingeniería Mecánica de la Universidad Nacional de Ingeniería con el apoyo de la Sección Estudiantil ASME UNI la cual es la rama estudiantil de la American Society of Mechanical Engineers con sede en la UNI.
             En el mes de abril del año 2019 participamos en Human Exploration Rover Challenge HERC evento de talla internacional promovido por la NASA que tiene como objetivo fomentar en diferentes instituciones educativas en todo el mundo habilidades de diseño mecánico, construcción de prototipos y electrónica orientados al rubro de exploración aeroespacial y logramos ser reconocidos con el AIAA Telemetry Award, que fue otorgado a la mejor propuesta e implementación en el área de electrónica y telemetría .
             Así mismo con la idea de superarnos continuamente el equipo tomó conocimiento sobre el evento European Rover Challenge y desde entonces se trazó como nuevo objetivo participar y destacar en esta competencia. Desde entonces se han sumado apoyos importantes para el proyecto que presentaremos en septiembre durante la competencia del ERC llevada a cabo en Polonia. Se sumaron egresados e interesados en el sector aeroespacial.
 
@@ -108,20 +108,20 @@ export default class ContenidoPrincipal extends Component {
         <div className="container py-5">
         <div className="row">
         <div className="col-md-6 text-white">
-            <h2 className="font-weight-bold">QUIENES SOMOS</h2>
-            <p className="font-weight-bold">Un equipo multidisciplinario formado en la Facultad de Ingeniería Mecánica de la Universidad Nacional de Ingeniería UNI.</p>
+            <h2 className="font-weight-bold nexa">QUIENES SOMOS</h2>
+            <p className="rockwell">Un equipo multidisciplinario formado en la Facultad de Ingeniería Mecánica de la Universidad Nacional de Ingeniería UNI.</p>
 
             <br />
-            <h2 className="font-weight-bold">QUE QUEREMOS LOGRAR</h2>
-            <p className="font-weight-bold">Reforzar el trabajo colectivo que se da entre ciertas casas de estudio como universidades, intitutos y la industria.</p>
+            <h2 className="font-weight-bold nexa">QUE QUEREMOS LOGRAR</h2>
+            <p className="rockwell">Reforzar el trabajo colectivo que se da entre ciertas casas de estudio como universidades, intitutos y la industria.</p>
 
             <br />
-            <h2 className="font-weight-bold">QUE QUEREMOS HACER ESTE AÑO</h2>
-            <p className="font-weight-bold">Lograr reconocimiento internacional en el mejor evento de robótica del mundo: European Rover Challenge ERC 2020.</p>
+            <h2 className="font-weight-bold nexa">QUE QUEREMOS HACER ESTE AÑO</h2>
+            <p className="rockwell">Lograr reconocimiento internacional en el mejor evento de robótica del mundo: European Rover Challenge ERC 2020.</p>
 
             <br />
-            <h2 className="font-weight-bold">QUE SOMOS CAPACES DE HACER</h2>
-            <p className="font-weight-bold">Tenemos un equipo multidisciplinario que nos permite dar solución a necesidades adversas presentes en los procesos estándares de la industria peruana.</p>
+            <h2 className="font-weight-bold nexa">QUE SOMOS CAPACES DE HACER</h2>
+            <p className="rockwell">Tenemos un equipo multidisciplinario que nos permite dar solución a necesidades adversas presentes en los procesos estándares de la industria peruana.</p>
 
             <br />
 
@@ -135,8 +135,8 @@ export default class ContenidoPrincipal extends Component {
     <div className="container-fluid bg-light py-5 mt-0">
         <div className="row justify-content-center">
             <div className="col-md-8 text-left">
-              <div className="h1 font-weight-bolder mb-0">NOSOTROS</div>
-              <div className="h5 font-weight-bold mt-0">EQUIPO PERUANO 2020</div>
+              <div className="h1 font-weight-bolder nexa mb-0">NOSOTROS</div>
+              <div className="h5 font-weight-bold nexa mt-0">EQUIPO PERUANO 2020</div>
             </div>
             <div className="col-md-8 text-center py-3">
               <Slider />

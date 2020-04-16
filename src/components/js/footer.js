@@ -15,7 +15,7 @@ export default class Footer extends Component {
             <div className="jumbotron text-center" style={this.styleFooter()}>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
-                    <div className="h3"><em>ENCUENTRANOS EN</em></div>
+                    <div className="h3 text-asme rockwell"><em>ENCUENTRANOS EN</em></div>
 
                         <div className="h3">
                             <a className="text-decoration-none px-2" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU"  rel="noopener"><i className="fa fa-instagram text-asme" aria-hidden="true"></i> </a>
@@ -25,7 +25,7 @@ export default class Footer extends Component {
                         </div>
 
                         <div className="h3">
-                            <a className="text-decoration-none px-2 text-asme" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU"  rel="noopener">@PumiiPeru</a></div>
+                            <a className="text-decoration-none px-2 text-asme rockwell" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU"  rel="noopener">@PumiiPeru</a></div>
                     </div>
                 </div>
             </div>

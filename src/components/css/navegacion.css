@@ -2,3 +2,15 @@
 .bgblack{
     background-color: black;
 }
+
+.nexa {
+    font-family: 'Nexa Rust Sans';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.rockwell {
+  font-family: 'Rockwell';
+  font-weight: normal;
+  font-style: normal;
+}

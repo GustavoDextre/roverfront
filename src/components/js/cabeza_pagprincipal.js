@@ -18,8 +18,8 @@ export default class CabezaPrincipal extends Component {
             <div className="row colordegradado">
 
                 <div className="col-md-6 rellenouno">
-                  <p className="h1 text-white">PUMII PERÚ</p>
-                  <div className="h5 text-white">Perú, un modelo de investigación<br/>e ingeniería</div>
+                  <p className="h1 text-white rockwell">PUMII PERÚ</p>
+                  <div className="h5 text-white rockwell">Perú, un modelo de investigación<br/>e ingeniería</div>
                 </div>
 
                 <div className="col-md-2">

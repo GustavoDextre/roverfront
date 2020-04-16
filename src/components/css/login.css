@@ -57,5 +57,17 @@
   }
 
   .text-asme {
-    color: #050B5B;
+    color: #070b2a;
   }
+
+  .nexa {
+    font-family: 'Nexa Rust Sans';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.rockwell {
+  font-family: 'Rockwell';
+  font-weight: normal;
+  font-style: normal;
+}

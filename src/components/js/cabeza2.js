@@ -6,7 +6,7 @@ export default class CabezaDos extends Component {
     render() {
         return (
             <div className="container-fluid fix">
-            <div className="display-4 text-center font-weight-bold text-white py-3">PUMII PERÚ</div>
+            <div className="sizetitulo text-center rockwell text-white py-3">PUMII PERÚ</div>
           </div>
     )
   }
