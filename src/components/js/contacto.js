@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CabezaDos from './cabeza2';
+import Navegacion from './navegacion';
 import '../css/login.css';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -11,6 +13,9 @@ export default class Contacto extends Component {
 
     render() {
         return (
+          <div>
+            <CabezaDos/>
+            <Navegacion/>
           <div className="fondocontacto pt-5">
           <section className="container-fluid bgfuture">
             <section className="row justify-content-center">
@@ -37,6 +42,7 @@ export default class Contacto extends Component {
         </section>
         </section>
         </div>
+      </div>
     )
   }
 }

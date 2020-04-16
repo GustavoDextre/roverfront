@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import 'font-awesome/css/font-awesome.min.css';
 import '../css/pagina_principal.css';
 import Slider from './slider';
+import CabezaPrincipal from './cabeza_pagprincipal';
+import Navegacion from './navegacion';
+import Footer from './footer';
 
 import logoerc from '../../images/logoerc.png';
 import fotodescripcion from '../../images/fotoDescripcion.jpg';
@@ -58,7 +61,8 @@ export default class ContenidoPrincipal extends Component {
   render() {
     return (
       <div>
-
+        <Navegacion/>
+        <CabezaPrincipal/>
       <div className="container-fluid" style={this.styleOne()}>
         <div className="row">
             <div className="col-md-6 py-5 text-center text-white">
@@ -145,7 +149,7 @@ export default class ContenidoPrincipal extends Component {
       </div>
 
       
-    
+      <Footer/>
     </div>
     )
   }

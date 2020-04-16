@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CabezaDos from './cabeza2';
+import Navegacion from './navegacion';
 import '../css/login.css';
 
 export default class Registro extends Component {
@@ -9,6 +11,9 @@ export default class Registro extends Component {
 
     render() {
         return (
+          <div>
+            <CabezaDos/>
+            <Navegacion/>
             <div className="fondoregistro pt-5">
           <section className="container-fluid bgfuture">
             <section className="row justify-content-center">
@@ -64,6 +69,7 @@ export default class Registro extends Component {
           </section>
 
           </div>
+        </div>
     )
   }
 }

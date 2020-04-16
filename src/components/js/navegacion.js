@@ -6,7 +6,7 @@ export default class Navegacion extends Component {
     render() {
         return (<div className="bgblack sticky-top nexa">
             <nav className="navbar navbar-expand-lg navbar-dark py-2 px-4">
-                    <Link className="navbar-brand  font-weight-bold" to="/">PUMII PERÚ</Link>
+                    <Link className="navbar-brand  font-weight-bold" to="/roverfront">PUMII PERÚ</Link>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

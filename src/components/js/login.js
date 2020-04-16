@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import CabezaDos from './cabeza2';
+import Navegacion from './navegacion';
 import '../css/login.css';
 
 export default class Login extends Component {
@@ -9,7 +11,10 @@ export default class Login extends Component {
   }
 
   render() {
-    return <div className="fondo pt-5">
+    return <div>
+      <CabezaDos/>
+      <Navegacion/>
+    <div className="fondo pt-5">
       <section className="container-fluid bgfuture">
         <section className="row justify-content-center">
           <section className="col-10 col-sm-8 col-md-6">
@@ -31,6 +36,7 @@ export default class Login extends Component {
       </section>
     </section>
     </section>
+    </div>
     </div>
   }
 }

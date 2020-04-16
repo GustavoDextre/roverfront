@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CabezaDos from './cabeza2';
+import Navegacion from './navegacion';
 import '../css/panel_video.css';
 
 import PUMII from '../../images/PUMII.png';
@@ -6,14 +8,19 @@ import UNI from '../../images/UNI.png';
 
 export default class PanelVideo extends Component {
 
+    _isMounted = false;
+
     state = {
         date: new Date()
     };
 
-    callMe(){
-        setInterval(() => {
-            this.setState({ date: new Date()});
-        }, 1000);
+    componentDidMount() {
+        this._isMounted = true;
+        if (this._isMounted) {
+            setInterval(() => {
+                this.setState({ date: new Date()});
+            }, 1000);
+        }
     }
 
     months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
@@ -22,8 +29,15 @@ export default class PanelVideo extends Component {
     hora = this.state.date.getHours() % 12? this.state.date.getHours() % 12:"12";
     notation = this.state.date.getHours() >= 12? "PM":"AM";
 
+    componentWillUnmount() {
+        clearInterval(this.state);
+        this._isMounted = false;
+    }
+
     render() {
         return (<div>
+            <CabezaDos/>
+            <Navegacion/>
             <div className="fondoSolar">
                 <section className="container-fluid">
                 <section className="row py-5">
@@ -39,7 +53,7 @@ export default class PanelVideo extends Component {
                     Número de personas conectadas :<div id="conexiones"></div>
                     </h6>
 
-                    <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" allow="accelerometer; xr-spatial-tracking;" src="https://aframeio.herokuapp.com/" title="Transmition..."></iframe>
+                    <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" allow="gyroscope;accelerometer;xr-spatial-tracking;" src="https://aframeio.herokuapp.com/" title="Transmition..."></iframe>
 
                     <h6 className="text-white py-2 bgfuture">
                         Tiempo de streaming : 
@@ -60,7 +74,7 @@ export default class PanelVideo extends Component {
                             +('0' +this.state.date.getSeconds()).slice(-2) + ' '
                             +this.notation}
                         
-                        {this.callMe()}
+                        
                     </h6>
 
                     </div>
