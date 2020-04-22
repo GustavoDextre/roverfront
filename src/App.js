@@ -8,6 +8,7 @@ import Login from './components/js/login';
 import Contacto from './components/js/contacto';
 import Registro from './components/js/registro';
 import PanelVideo from './components/js/panel_video';
+import QuienesSomos from './components/js/quienesSomos';
 
 function App () {
     return(
@@ -17,6 +18,7 @@ function App () {
         <Route path="/registrar" component={Registro}/>
         <Route path="/contacto" component={Contacto}/>
         <Route path="/streaming" component={PanelVideo} />
+        <Route path="/quienesSomos" component={QuienesSomos} />
       </div>);
 }
 

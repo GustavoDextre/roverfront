@@ -16,7 +16,7 @@ export default class Contacto extends Component {
           <div>
             <CabezaDos/>
             <Navegacion/>
-          <div className="fondocontacto pt-5">
+          <div className="fondocontacto">
           <section className="container-fluid bgfuture">
             <section className="row justify-content-center">
               <section className="col-10 col-sm-8 col-md-6">

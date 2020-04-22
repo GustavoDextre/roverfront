@@ -9,11 +9,14 @@
         height: 500px;
         width: 700px;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
         height: auto;
         width: 80%;
     }
-
+    .cuadroLogoUni{
+        height: auto;
+        width: 67%;
+    }
 }
 
 @media screen and (min-width: 1262px) and (max-width: 1471px) {
@@ -21,9 +24,13 @@
         height: 400px;
         width: 100%;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
         height: auto;
         width: 80%;
+    }
+    .cuadroLogoUni{
+        height: auto;
+        width: 65%;
     }
 }
 
@@ -32,9 +39,13 @@
         height: 300px;
         width: 100%;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
         height: auto;
         width: 80%;
+    }
+    .cuadroLogoUni{
+        height: auto;
+        width: 65%;
     }
 }
 
@@ -43,9 +54,13 @@
         height: 300px;
         width: 100%;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
         height: auto;
-        width: 80%;
+        width: 70%;
+    }
+    .cuadroLogoUni{
+        height: auto;
+        width: 65%;
     }
 }
 
@@ -54,7 +69,11 @@
         height: 500px;
         width: 100%;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
+        height: auto;
+        width: 50%;
+    }
+    .cuadroLogoUni{
         height: auto;
         width: 50%;
     }
@@ -65,7 +84,11 @@
         height: 390px;
         width: 100%;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
+        height: auto;
+        width: 50%;
+    }
+    .cuadroLogoUni{
         height: auto;
         width: 50%;
     }
@@ -76,7 +99,11 @@
         height: 300px;
         width: 100%;
     }
-    .cuadro2{
+    .cuadroPumiiUni{
+        height: auto;
+        width: 50%;
+    }
+    .cuadroLogoUni{
         height: auto;
         width: 50%;
     }

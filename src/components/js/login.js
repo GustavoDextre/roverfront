@@ -14,7 +14,7 @@ export default class Login extends Component {
     return <div>
       <CabezaDos/>
       <Navegacion/>
-    <div className="fondo pt-5">
+    <div className="fondo">
       <section className="container-fluid bgfuture">
         <section className="row justify-content-center">
           <section className="col-10 col-sm-8 col-md-6">

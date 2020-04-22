@@ -14,19 +14,19 @@ export default class CabezaPrincipal extends Component {
 
     render() {
         return (
-        <div className="container-fluid fotoCabeza">
-            <div className="row colordegradado">
+        <div className="container-fluid fotoCabeza rellenouno">
+            <div className="row">
 
-                <div className="col-md-6 rellenouno">
+                <div className="col-md-6">
                   <p className="h1 text-white rockwell">PUMII PERÚ</p>
                   <div className="h5 text-white rockwell">Perú, un modelo de investigación<br/>e ingeniería</div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-3">
                     
                 </div>
 
-                <div className="col-md-3 rellenodos">
+                <div className="col-md-3 ml-auto rellenodos">
                     <div>
                         <img src={logoPummii} style={this.stylePhotoPumii()} alt="Foto PUMII UNI" />
                     </div>

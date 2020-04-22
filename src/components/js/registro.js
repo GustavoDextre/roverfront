@@ -14,7 +14,7 @@ export default class Registro extends Component {
           <div>
             <CabezaDos/>
             <Navegacion/>
-            <div className="fondoregistro pt-5">
+            <div className="fondoregistro">
           <section className="container-fluid bgfuture">
             <section className="row justify-content-center">
               <section className="col-10 col-sm-10 col-md-8">
