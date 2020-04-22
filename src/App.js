@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
@@ -13,12 +13,13 @@ import QuienesSomos from './components/js/quienesSomos';
 function App () {
     return(
       <div className="fondoprincipal">
+        <Switch>
         <Route path="/roverfront" exact component={ContenidoPrincipal}/>
         <Route path="/login" component={Login}/>
         <Route path="/registrar" component={Registro}/>
         <Route path="/contacto" component={Contacto}/>
         <Route path="/streaming" component={PanelVideo} />
-        <Route path="/quienesSomos" component={QuienesSomos} />
+        <Route path="/quienesSomos" component={QuienesSomos} /></Switch>
       </div>);
 }
 
