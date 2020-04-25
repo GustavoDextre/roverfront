@@ -21,7 +21,7 @@ export default class Contacto extends Component {
             <section className="row justify-content-center">
               <section className="col-10 col-sm-8 col-md-6">
                 <form className="form-container col-md-12 mb-5" onSubmit={this.onSubmit}>
-                  <div className="text-center font-weight-bold textfone rockwell"><h3>Contactar a PUMII PERÚ</h3></div>
+                  <div className="text-center font-weight-bold textfone nexa"><h3>Contactar a PUMII PERÚ</h3></div>
                   <div className="form-group nexa">
                     <label htmlFor="exampleInputCodigo1">Nombre de usuario:</label>
                     <input type="text" name="username" className="form-control" id="usuario" placeholder="Usuario" />

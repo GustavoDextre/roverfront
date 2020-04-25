@@ -15,7 +15,7 @@ export default class Footer extends Component {
             <div className="jumbotron text-center" style={this.styleFooter()}>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
-                    <div className="h3 text-asme rockwell">ENCUENTRANOS EN</div>
+                    <div className="h3 text-asme nexa">ENCUENTRANOS EN</div>
 
                         <div className="h3">
                             <a className="text-decoration-none px-2" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU" target="_blank" rel="noopener noreferrer">
@@ -33,7 +33,7 @@ export default class Footer extends Component {
                         </div>
 
                         <div className="h3">
-                            <a className="text-decoration-none px-2 text-asme rockwell lead" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU" target="_blank" rel="noopener noreferrer">@PumiiPeru</a></div>
+                            <a className="text-decoration-none px-2 text-asme nexa lead" href="https://instagram.com/pumiiperu?fbclid=IwAR2_IdoO_HwYQnc16OLlTbyB7tjUgxmsd7VzlORs7kpmKTt-43gZzBJm-iU" target="_blank" rel="noopener noreferrer">@PumiiPeru</a></div>
 
                         <div className="font-futura text-asme">
                          Ubicación: Av. Túpac Amaru 210 - Rímac. Apartado 1301

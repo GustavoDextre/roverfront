@@ -43,7 +43,7 @@ export default class PanelVideo extends Component {
                         </div>
                     </section>
             
-                    <section className="col-md-12 col-lg-6 text-center rockwell pb-3">
+                    <section className="col-md-12 col-lg-6 text-center nexa pb-3">
                         <div className="text-center" name="_reloj">
                         <h6 className="text-white py-1 bgfuture">
                         Número de personas conectadas :<div id="conexiones"></div>

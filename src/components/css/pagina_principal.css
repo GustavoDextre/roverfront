@@ -29,19 +29,21 @@
   }
   .footdescuno{
     text-align: right;
-    padding-right: 0;
     padding-right: 50px;
   }
   .footdescdos{
     text-align: left;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 50px;
+  }
+  .paddingbanner{
+    padding-left: 11.5rem;
   }
 }
 
 @media screen and (min-width: 1462px){
   .rellenotres{
-    padding-top: 200px;
+    padding-top: 120px;
   }
 }
 
@@ -74,6 +76,9 @@
       }
       .rellenotres{
         padding-top: 100px;
+        text-align: center;
+      }
+      .paddingbanner{
         text-align: center;
       }
   }
@@ -138,5 +143,9 @@
   font-style: normal;
 }
 
+.fondobanner {
+  background: url("../../images/banner.png");
+  background-size: 100% 100%;
+}
 
 

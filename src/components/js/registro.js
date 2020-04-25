@@ -19,7 +19,7 @@ export default class Registro extends Component {
             <section className="row justify-content-center">
               <section className="col-10 col-sm-10 col-md-8">
                 <form className="form-container col-md-12 mb-5" id="form-registro" onSubmit={this.onSubmit}>
-                  <div className="text-center font-weight-bold textfone rockwell mb-4">
+                  <div className="text-center font-weight-bold textfone nexa mb-4">
                     <h3>Bienvenido al registro del sistema</h3>
                   </div>
                   <div className="form-row nexa">

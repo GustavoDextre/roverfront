@@ -8,12 +8,6 @@ import f1 from '../../images/imagesSlide/foto1.jpg';
 import f2 from '../../images/imagesSlide/foto2.jpg';
 import f3 from '../../images/imagesSlide/foto3.jpg';
 import f4 from '../../images/imagesSlide/foto4.jpg';
-import f5 from '../../images/imagesSlide/foto5.jpg';
-import f6 from '../../images/imagesSlide/foto6.jpg';
-import f7 from '../../images/imagesSlide/foto7.jpg';
-import f8 from '../../images/imagesSlide/foto8.jpg';
-import f9 from '../../images/imagesSlide/foto9.jpg';
-import f10 from '../../images/imagesSlide/foto10.jpg';
 
 function Slider() {
 
@@ -29,13 +23,7 @@ function Slider() {
     <ImagesSlider src={f1}/>,
     <ImagesSlider src={f2}/>,
     <ImagesSlider src={f3}/>,
-    <ImagesSlider src={f4}/>,
-    <ImagesSlider src={f5}/>,
-    <ImagesSlider src={f6}/>,
-    <ImagesSlider src={f7}/>,
-    <ImagesSlider src={f8}/>,
-    <ImagesSlider src={f9}/>,
-    <ImagesSlider src={f10}/>];
+    <ImagesSlider src={f4}/>];
 
     return (
         <div className="slider">

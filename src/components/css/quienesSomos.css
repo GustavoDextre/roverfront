@@ -37,3 +37,9 @@
       max-width: 100%;
     }
   }
+
+  .child{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-size: 100% 100%;
+  }

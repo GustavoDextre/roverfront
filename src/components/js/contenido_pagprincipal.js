@@ -69,7 +69,7 @@ export default class ContenidoPrincipal extends Component {
             <div className="container-fluid col-lg-6 py-5 text-white texto-centrado">
               <p className="h2 font-weight-bold nexa">PERÚ UN MODELO DE</p>
               <p className="h5 font-weight-bold nexa margensuperiornegativo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INVESTIGACIÓN E INGENIERÍA</p>
-              <p className="h6 font-weight-bold rockwell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ERC POLONIA 2020</p>
+              <p className="h6 font-weight-bold nexa">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ERC POLONIA 2020</p>
             </div><br/>
             <div className="container-fluid col-lg-6 py-5 imageERC text-center">
             <img src={logoerc} style={this.stylePhotoERC()} alt="Foto Logo ERC" />
@@ -77,7 +77,7 @@ export default class ContenidoPrincipal extends Component {
         </div>
       </div>
 
-      <div className="container-fluid bg-light alineadoretos" style={this.styleOne()}>
+      <div className="container-fluid bg-white alineadoretos" style={this.styleOne()}>
         <div className="row">
             <div className="col-lg-6">
             <p className="h5 text-asme font-futura rellenotres">Somos un equipo multidisciplinario<br/> formado en la Facultad de Ingeniería<br/> Mecánica de la Universidad Nacional<br/> de Ingeniería UNI.</p>
@@ -87,8 +87,8 @@ export default class ContenidoPrincipal extends Component {
             </div><br/>
         </div>
         <div className="row justify-content-center py-3">
-          <div className="footdescuno col-md-4"><img src={UNI} style={this.stylePhotoFootUni()} alt="Foto UNI" /></div>
-          <div className="footdescdos col-md-4"><img src={ASME} style={this.stylePhotoFootAsme()} alt="Foto ASME UNI" /></div>
+          <div className="footdescuno col-md-5"><img src={UNI} style={this.stylePhotoFootUni()} alt="Foto UNI" /></div>
+          <div className="footdescdos col-md-5"><img src={ASME} style={this.stylePhotoFootAsme()} alt="Foto ASME UNI" /></div>
         </div>
       </div>
 

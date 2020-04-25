@@ -12,7 +12,7 @@ import QuienesSomos from './components/js/quienesSomos';
 
 function App () {
     return(
-      <div className="fondoprincipal">
+      <div className="fondoprincipal child">
         <Switch>
         <Route path="/roverfront" exact component={ContenidoPrincipal}/>
         <Route path="/login" component={Login}/>

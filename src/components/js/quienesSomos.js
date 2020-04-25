@@ -38,7 +38,7 @@ export default class QuienesSomos extends Component {
     
 
   render() {
-    return <div>
+    return <div className="bg-white child">
       <CabezaDos/>
       <Navegacion/>
       <div className="row"> 

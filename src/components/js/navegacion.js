@@ -17,7 +17,7 @@ export default class Navegacion extends Component {
                                 NOSOTROS
                                 </div>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link className="dropdown-item" to="/quienesSomos">Quienes somos</Link>
+                                    <Link className="dropdown-item" to="/quienesSomos">EVENTOS</Link>
                                 </div>
                             </li>
 

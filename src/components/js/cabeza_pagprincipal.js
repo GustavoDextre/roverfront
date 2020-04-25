@@ -18,8 +18,8 @@ export default class CabezaPrincipal extends Component {
             <div className="row">
 
                 <div className="col-md-6">
-                  <p className="h1 text-white rockwell">PUMII PERÚ</p>
-                  <div className="h5 text-white rockwell">Perú, un modelo de investigación<br/>e ingeniería</div>
+                  <p className="h1 text-white nexa">PUMII PERÚ</p>
+                  <div className="h5 text-white nexa">Perú, un modelo de investigación<br/>e ingeniería</div>
                 </div>
 
                 <div className="col-md-3">
