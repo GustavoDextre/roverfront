@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd19c9f17309ed42c050cc30d4b5feef",
+    "revision": "1d23c6905557f76c44718fb5be7d4956",
     "url": "/roverfront/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/roverfront/static/css/2.e6e4ff8c.chunk.css"
   },
   {
-    "revision": "5a65c619f24611552feb",
+    "revision": "8c9b16b957443d83fb7b",
     "url": "/roverfront/static/css/main.cf9b7c0d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/roverfront/static/js/2.d6b57a9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a65c619f24611552feb",
-    "url": "/roverfront/static/js/main.e12c8b4c.chunk.js"
+    "revision": "8c9b16b957443d83fb7b",
+    "url": "/roverfront/static/js/main.09e6c49b.chunk.js"
   },
   {
     "revision": "9180d15f4f90baa7244f",
