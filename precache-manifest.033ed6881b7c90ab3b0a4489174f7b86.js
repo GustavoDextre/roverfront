@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05ba196d08569bf92ef65e31fb426191",
+    "revision": "dd19c9f17309ed42c050cc30d4b5feef",
     "url": "/roverfront/index.html"
   },
   {
-    "revision": "1429b911611c063b1ff4",
+    "revision": "712dbbd5d984b1bc404e",
     "url": "/roverfront/static/css/2.e6e4ff8c.chunk.css"
   },
   {
-    "revision": "4911be489dc42d51de6c",
-    "url": "/roverfront/static/css/main.9471b589.chunk.css"
+    "revision": "5a65c619f24611552feb",
+    "url": "/roverfront/static/css/main.cf9b7c0d.chunk.css"
   },
   {
-    "revision": "1429b911611c063b1ff4",
-    "url": "/roverfront/static/js/2.97e4c425.chunk.js"
+    "revision": "712dbbd5d984b1bc404e",
+    "url": "/roverfront/static/js/2.d6b57a9a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/roverfront/static/js/2.97e4c425.chunk.js.LICENSE.txt"
+    "url": "/roverfront/static/js/2.d6b57a9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4911be489dc42d51de6c",
-    "url": "/roverfront/static/js/main.13045e69.chunk.js"
+    "revision": "5a65c619f24611552feb",
+    "url": "/roverfront/static/js/main.e12c8b4c.chunk.js"
   },
   {
     "revision": "9180d15f4f90baa7244f",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93218426419f855600d23c79b411e8f0",
     "url": "/roverfront/static/media/UNI.93218426.png"
+  },
+  {
+    "revision": "04efb8e57865b534d3456324b988dc21",
+    "url": "/roverfront/static/media/banner.04efb8e5.png"
   },
   {
     "revision": "8ddae5741dc1cef719851866c0614ee4",
@@ -160,16 +164,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/roverfront/static/media/foto9.5ea86180.jpg"
   },
   {
-    "revision": "08c150348a60411541e99509b8847b3b",
-    "url": "/roverfront/static/media/fotoDescripcion.08c15034.jpg"
+    "revision": "3776a470d44daaf3810a9d7404ea8417",
+    "url": "/roverfront/static/media/fotoDescripcion.3776a470.jpg"
   },
   {
     "revision": "4f8496ca8d1d8f7cac6b52e14758cd51",
     "url": "/roverfront/static/media/foto_principal.4f8496ca.jpeg"
   },
   {
-    "revision": "8805175ce9a90cc96214e414b316e0bc",
-    "url": "/roverfront/static/media/historia.8805175c.jpg"
+    "revision": "361c9eaf2c75404a39feed390b121323",
+    "url": "/roverfront/static/media/historia.361c9eaf.jpg"
   },
   {
     "revision": "ca3b706dd29d9cac0ee37d8a9b504852",
