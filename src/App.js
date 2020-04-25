@@ -20,7 +20,6 @@ function App () {
         <Route path="/contacto" component={Contacto}/>
         <Route path="/streaming" component={PanelVideo} />
         <Route path="/quienesSomos" component={QuienesSomos} />
-        <Route path="*" component={ContenidoPrincipal} />
         </Switch>
       </div>);
 }
