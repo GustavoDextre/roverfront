@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
@@ -10,9 +10,10 @@ import Registro from './components/js/registro';
 import PanelVideo from './components/js/panel_video';
 import QuienesSomos from './components/js/quienesSomos';
 
-function App () {
+class App extends Component {
+  render(){
     return(
-      <div className="fondoprincipal child">
+      <div className="fondoprincipal">
         <Switch>
         <Route path="/roverfront" exact component={ContenidoPrincipal}/>
         <Route path="/login" component={Login}/>
@@ -22,6 +23,8 @@ function App () {
         <Route path="/quienesSomos" component={QuienesSomos} />
         </Switch>
       </div>);
+  }
+    
 }
 
 export default App;
