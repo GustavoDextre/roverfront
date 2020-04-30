@@ -23,10 +23,10 @@ export default class Registro extends Component {
       [name]: value
     });
   }
-
+   
   onSubmit = (event) => {
     event.preventDefault();
-    fetch('https://apijwtrover.herokuapp.com/api/register', {
+    /*fetch('/api/register', {
       method: 'POST',
       body: JSON.stringify(this.state),
       headers: {
@@ -44,7 +44,7 @@ export default class Registro extends Component {
     .catch(err => {
       console.error(err);
       alert('Error logging in please try again');
-    });
+    });*/
   }
 
     render() {

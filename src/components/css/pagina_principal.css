@@ -39,6 +39,17 @@
   .paddingbanner{
     padding-left: 11.5rem;
   }
+  .logouni{
+    width: 40%;
+  }
+  .logounida{
+    width: 60%;
+    padding-top: 1rem;
+  }
+  .logoasme{
+    width: 60%;
+    padding-top: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1462px){
@@ -80,6 +91,17 @@
       }
       .paddingbanner{
         text-align: center;
+      }
+      .logouni{
+        width: 20%;
+      }
+      .logounida{
+        width: 40%;
+        padding-top: 0.8rem;
+      }
+      .logoasme{
+        width: 40%;
+        padding-top: 1.5rem;
       }
   }
 

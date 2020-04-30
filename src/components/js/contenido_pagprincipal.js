@@ -7,11 +7,12 @@ import Navegacion from './navegacion';
 import Footer from './footer';
 
 import logoerc from '../../images/logoerc.png';
-import fotodescripcion from '../../images/fotoDescripcion.jpg';
 import UNI from '../../images/UNI.png';
+import UNIDA from '../../images/UNIDA.png';
 import ASME from '../../images/logoasme.png';
 import historia from '../../images/historia.jpg';
-import teamPumii from '../../images/teamPumii.jpg'
+import teamPumii from '../../images/teamPumii.jpg';
+import erc from '../../images/erc.jpg';
 
 export default class ContenidoPrincipal extends Component {
 
@@ -38,18 +39,6 @@ export default class ContenidoPrincipal extends Component {
   stylePhotoERC(){
     return {
       width: '50%'
-    }
-  }
-
-  stylePhotoFootAsme(){
-    return{
-      width: '40%'
-    }
-  }
-
-  stylePhotoFootUni(){
-    return{
-      width: '20%'
     }
   }
 
@@ -83,12 +72,8 @@ export default class ContenidoPrincipal extends Component {
             <p className="h5 text-asme font-futura rellenotres">Somos un equipo multidisciplinario<br/> formado en la Facultad de Ingeniería<br/> Mecánica de la Universidad Nacional<br/> de Ingeniería UNI.</p>
             </div><br/>
             <div className="container col-lg-6 py-5 text-center">
-            <img src={fotodescripcion} style={this.stylePhotoERC()} alt="Foto entrada" />
+            <img src={teamPumii} style={this.stylePhotoHistoria()} alt="Foto entrada" />
             </div><br/>
-        </div>
-        <div className="row justify-content-center py-3">
-          <div className="footdescuno col-md-5"><img src={UNI} style={this.stylePhotoFootUni()} alt="Foto UNI" /></div>
-          <div className="footdescdos col-md-5"><img src={ASME} style={this.stylePhotoFootAsme()} alt="Foto ASME UNI" /></div>
         </div>
       </div>
 
@@ -115,7 +100,7 @@ export default class ContenidoPrincipal extends Component {
               </p>
             </div><br/>
             <div className="col-lg-5 py-5 imageERC text-center">
-            <img src={teamPumii} style={this.stylePhotoHistoria()} alt="Foto Logo ERC" />
+            <img src={erc} style={this.stylePhotoHistoria()} alt="Foto Logo ERC" />
             </div><br/>
         </div>
       </div>
@@ -149,17 +134,28 @@ export default class ContenidoPrincipal extends Component {
       
 
       <div className="container-fluid bg-light py-5 m-0 alineadoretos">
-        <div className="row justify-content-center ">
-            <div className="col-md-11 text-left">
+        <div className="row justify-content-center px-2">
+            <div className="col-md-12 text-left">
               <div className="h1 font-weight-bolder nexa mb-0">NOSOTROS</div>
               <div className="h6 font-weight-bold nexa margensuperiornegativo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EQUIPO PERUANO 2020</div>
             </div>
-            <div className="col-md-11 text-center py-3">
+            <div className="col-md-12 text-center py-3">
               <Slider />
             </div>
         </div>
       </div>
-
+      
+      <div className="container-fluid bg-light py-2 m-0 alineadoretos">
+      
+      <div className="col-md-12 text-center">
+      <div className="h1 font-weight-bolder nexa mb-0 py-3">PATROCINADORES</div>
+      <div className="row justify-content-center px-2 py-3">
+          <div className="col-md-4 py-3 "><img className="logouni" src={UNI} alt="Foto UNI" /></div>
+          <div className="col-md-4 py-3 "><img className="logounida" src={UNIDA}  alt="Foto UNIDA" /></div>
+          <div className="col-md-4 py-3 "><img className="logoasme" src={ASME} alt="Foto ASME UNI" /></div>
+          </div>
+        </div>
+      </div>
       
       <Footer/>
     </div>

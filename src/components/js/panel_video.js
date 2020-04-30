@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CabezaDos from './cabeza2';
 import Navegacion from './navegacion';
+import io  from 'socket.io-client';
 import '../css/panel_video.css';
 
 import PUMII from '../../images/PUMII.png';
@@ -9,13 +10,16 @@ import UNI from '../../images/UNI.png';
 export default class PanelVideo extends Component {
 
     state = {
-        date: new Date()
+        date: new Date(),
+        conexiones: 0
     };
 
     componentDidMount() { 
         this.timer = setInterval(() => {
             this.setState({ date: new Date()});
         }, 1000);
+
+        this.socket = io('/streaming')
         
     }
 
@@ -46,10 +50,10 @@ export default class PanelVideo extends Component {
                     <section className="col-md-12 col-lg-6 text-center nexa pb-3">
                         <div className="text-center" name="_reloj">
                         <h6 className="text-white py-1 bgfuture">
-                        Número de personas conectadas :<div id="conexiones"></div>
+                        Número de personas conectadas : <div id="Contador"></div>
                         </h6>
 
-                        <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" allow="gyroscope;accelerometer;xr-spatial-tracking;" src="https://aframeio.herokuapp.com/" title="Transmition..."></iframe>
+                        <iframe id="cuadro" allowFullScreen="yes" scrolling="no" allowvr="yes" allow="gyroscope;accelerometer;xr-spatial-tracking;" src="/video" title="Transmition..."></iframe>
 
                         <h6 className="text-white py-2 bgfuture">
                             Tiempo de streaming : 

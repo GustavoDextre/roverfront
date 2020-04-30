@@ -6,6 +6,44 @@ import '../css/login.css';
 
 export default class Login extends Component {
 
+  constructor(props) {
+    super(props)
+    this.state = {
+      username : '',
+      password: ''
+    };
+  }
+
+  handleInputChange = (event) => {
+    const { value, name } = event.target;
+    this.setState({
+      [name]: value
+    });
+  }
+
+  onSubmit = (event) => {
+    event.preventDefault();
+    /*fetch('/api/authenticate', {
+      method: 'POST',
+      body: JSON.stringify(this.state),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(res => {
+      if (res.status === 200) {
+        this.props.history.push('/');
+      } else {
+        const error = new Error(res.error);
+        throw error;
+      }
+    })
+    .catch(err => {
+      console.error(err);
+      alert('Error logging in please try again');
+    });*/
+  }
+
   render() {
     return <div>
       <CabezaDos/>
@@ -24,6 +62,9 @@ export default class Login extends Component {
                   className="form-control" 
                   id="usuario" 
                   placeholder="Usuario"
+                  value={this.state.username}
+                  onChange={this.handleInputChange}
+                  required
                   />
               </div>
 
@@ -35,6 +76,9 @@ export default class Login extends Component {
                     className="form-control" 
                     id="contra" 
                     placeholder="Contraseña"
+                    value={this.state.password}
+                    onChange={this.handleInputChange}
+                    required
                     />
               </div>
                   <button type="submit" value="Submit" className="btn-block btn fondoprincipal text-white nexa">Ingresar</button>

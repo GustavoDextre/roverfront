@@ -9,18 +9,20 @@ import Contacto from './components/js/contacto';
 import Registro from './components/js/registro';
 import PanelVideo from './components/js/panel_video';
 import QuienesSomos from './components/js/quienesSomos';
+import Video from './components/js/video';
 
 class App extends Component {
   render(){
     return(
       <div className="fondoprincipal">
         <Switch>
-        <Route path="/roverfront" exact component={ContenidoPrincipal}/>
+        <Route path="/" exact component={ContenidoPrincipal}/>
         <Route path="/login" component={Login}/>
         <Route path="/registrar" component={Registro}/>
         <Route path="/contacto" component={Contacto}/>
         <Route path="/streaming" component={PanelVideo} />
         <Route path="/quienesSomos" component={QuienesSomos} />
+        <Route path="/video" component={Video} />
         </Switch>
       </div>);
   }

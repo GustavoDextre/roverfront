@@ -6,7 +6,7 @@ export default class Navegacion extends Component {
     render() {
         return (<div className="bg-navegacion sticky-top nexa padding-horizontal">
             <nav className="navbar navbar-expand-lg navbar-dark py-2">
-                    <Link className="navbar-brand  font-weight-bold" to="/roverfront">PUMII PERÚ</Link>
+                    <Link className="navbar-brand  font-weight-bold" to="/">PUMII PERÚ</Link>
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -20,10 +20,10 @@ export default class Navegacion extends Component {
                                     <Link className="dropdown-item" to="/quienesSomos">EVENTOS</Link>
                                 </div>
                             </li>
-
+                            {/* 
                             <li className="nav-item font-weight-bold">
                                 <Link to="/login" className="nav-link">LOGIN</Link>
-                            </li>
+                            </li>*/}
                             <li className="nav-item font-weight-bold">
                                 <Link to="/registrar" className="nav-link">REGISTRATE</Link>
                             </li>
